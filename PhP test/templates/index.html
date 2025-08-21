@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="overlay" id="background"></div>
+
+    <div class="center-box">
+        <h2>🌦 Weather App</h2>
+        <input type="text" id="cityInput" placeholder="Enter city">
+        <button onclick="getWeather()">Get Weather</button>
+
+        <div class="unit-toggle">
+            <button id="toggleUnit">°C</button>
+        </div>
+
+        <div id="weatherResult"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
